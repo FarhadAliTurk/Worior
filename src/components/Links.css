@@ -1,0 +1,8 @@
+/* Adds hover effect */
+.btn:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+
+

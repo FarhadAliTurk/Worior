@@ -1,0 +1,35 @@
+/* Fix footer to bottom of the page */
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .social-icon {
+    color: white;
+    font-size: 24px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #007bff; /* Hover color */
+    transform: scale(1.2); /* Hover animation */
+  }
+  
